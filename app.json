@@ -7,7 +7,8 @@
     "pages/searchHotel/searchHotel",
     "pages/hotelDetail/hotelDetail",
     "pages/hotelFilter/hotelFilter",
-    "pages/bookHotel/bookHotel"
+    "pages/bookHotel/bookHotel",
+    "pages/aboutHotel/aboutHotel"
   ],
   "window": {
     "backgroundTextStyle": "light",

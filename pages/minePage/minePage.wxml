@@ -22,4 +22,12 @@
 <template is='settingItem' data="{{caption:'我的会员',value:'普通会员',needIcon:false}}" />
 <template is='settingItem' data="{{caption:'我的积分',value:'0积分',needIcon:false}}" />
 <template is='settingItem' data="{{caption:'我的优惠券',value:'0张',needIcon:true}}" />
-<template is='settingItem' data="{{caption:'关于艾迪花园酒店',value:'',needIcon:true}}" />
+<view class="about">
+  <view class="item">
+    <image src="../../res/images/roundabout.png" class="icon"/>
+      <view class="aboutHotel" bindtap="aboutHotel">
+            <text class="text">关于艾迪花园</text>
+      </view>
+  </view>
+</view>
+<!-- <template is='settingItem' data="{{caption:'关于艾迪花园酒店',value:'',needIcon:true}}" bindtap="aboutHotel"/> -->

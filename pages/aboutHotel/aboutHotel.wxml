@@ -1,0 +1,34 @@
+<!--pages/aboutHotel/aboutHotel.wxml-->
+<image src="../../res/images/home.png" />
+<!-- <text class="title">艾迪花园>>关于酒店>></text>  -->
+
+<!-- <text class="body">
+艾迪花园酒店
+</text> -->
+
+<text class="content" decode="true">
+  &nbsp;艾迪花园酒店座落于无锡市惠山新城智慧路17号，是一座按五星级标准建造，集餐饮、客房、会议、娱乐、休闲等为一体的多功能商务型花园酒店。酒店总建筑面积45360㎡，于2010年5月28日正式开业。
+</text>
+
+<text class="temp" decode="true">
+  &nbsp;
+</text>
+
+<image src="../../res/images/multiple POIs.png" />
+<!-- <text class="title">艾迪花园>>关于版权>></text>  -->
+
+<text class="content" decode="true">
+  &nbsp;该系统的所有资源均来自于网络开源等正规途径，无版权侵权问题。如遇到侵犯您的权利的情况，您可以随时联系我们，我们将积极解决，给您一个赔偿方案，并且删除网络公开资料。
+</text>
+
+<text class="temp" decode="true">
+  &nbsp;
+</text>
+
+<image src="../../res/images/声明.png" />
+
+<text class="content" decode="true">
+  &nbsp;我们坚决支持正版，抵制一切盗版行为
+  &nbsp;任何使用者禁止散播不良言论，我们将对这种行为坚决纸质，视情节严重者进行处罚
+  &nbsp;坚持核心价值观，做思想和行为的正确引导者
+</text>

@@ -1,0 +1,30 @@
+/* pages/aboutHotel/aboutHotel.wxss */
+.title {
+  text-align: center;
+  color: rgb(97, 100, 243);
+}
+
+image {
+  width: 45rpx;
+  height: 45rpx;
+}
+
+.body {
+  font-size: 32px;
+  color: #b3a36b;
+}
+
+.content {
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-top: 12px;
+  color: #666;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.temp {
+  display: block;
+}

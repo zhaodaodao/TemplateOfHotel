@@ -42,22 +42,54 @@ Page {
      background: white;
 }
 
-.order .item {
+.about {
+  width: 100%;
+     height: max-content;
+     box-sizing: border-box;
      display: flex;
      flex-direction: row;
-     flex: 1;
-     justify-content: center;
-     align-items: center;
+     padding: 32rpx 0;
+     margin: 20rpx 0;
+     background: white;
+}
+
+.order .item {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .item {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .order .item .icon {
      width: 40rpx;
 }
 
+.about .item .icon {
+  width: 60rpx;
+  height: 60rpx;
+}
+
 .order .item .text {
      margin-left: 16rpx;
      font-size: 30rpx;
      color: #333;
+}
+
+.about .item .text {
+  margin-left: 16rpx;
+  font-size: 35rpx;
+  color: #333;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .settingItem {

@@ -37,14 +37,58 @@ Page({
           for (var i = 0; i < 10; i++) {
                var hotelBean = new HotelBean();
                hotelBean.image = '../../res/images/ic_hotel_image.png';
-               hotelBean.name = '深圳市优软科技大酒店';
+               hotelBean.name = '艾迪花园酒店（江西南昌店）';
                hotelBean.score = 4.5;
                hotelBean.service = '停车场/温泉/餐饮';
-               hotelBean.address = '深大地铁站';
-               hotelBean.distance = '3.5';
-               hotelBean.price = 299;
+               hotelBean.address = 'IDEA CBD';
+               hotelBean.distance = '3';
+               hotelBean.price = 399;
 
                mHotelList.push(hotelBean);
+
+               var hotelBean = new HotelBean();
+              hotelBean.image = '../../res/images/ic_hotel_image1.png';
+              hotelBean.name = '艾迪花园酒店（江西新建店）';
+              hotelBean.score = 4.2;
+              hotelBean.service = '停车场/温泉/餐饮';
+              hotelBean.address = '新建中心';
+              hotelBean.distance = '2';
+              hotelBean.price = 299;
+
+              mHotelList.push(hotelBean);
+
+              var hotelBean = new HotelBean();
+              hotelBean.image = '../../res/images/ic_hotel_image2.png';
+              hotelBean.name = '艾迪花园酒店（浙江杭州店）';
+              hotelBean.score = 4.6;
+              hotelBean.service = '停车场/温泉/餐饮';
+              hotelBean.address = '地铁一号线';
+              hotelBean.distance = '4';
+              hotelBean.price = 599;
+
+              mHotelList.push(hotelBean);
+
+              var hotelBean = new HotelBean();
+              hotelBean.image = '../../res/images/ic_hotel_image3.png';
+              hotelBean.name = '艾迪花园酒店（福建福州店）';
+              hotelBean.score = 4.2;
+              hotelBean.service = '停车场/温泉/餐饮';
+              hotelBean.address = '地铁一号线';
+              hotelBean.distance = '2';
+              hotelBean.price = 499;
+
+              mHotelList.push(hotelBean);
+
+              var hotelBean = new HotelBean();
+              hotelBean.image = '../../res/images/ic_hotel_image4.png';
+              hotelBean.name = '艾迪花园酒店（湖南长沙哦店）';
+              hotelBean.score = 4.4;
+              hotelBean.service = '停车场/温泉/餐饮';
+              hotelBean.address = '地铁二号线';
+              hotelBean.distance = '1';
+              hotelBean.price = 399;
+
+              mHotelList.push(hotelBean);
           }
 
           this.setData({

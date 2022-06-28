@@ -32,11 +32,11 @@
 }
 
 .commonBtn {
-     background: #fd7a33;
+     background: #4733fd;
 }
 
 .commonBtnHover {
-     background: #e55507;
+     background: #3c00c9;
 }
 
 .common_search_input {
@@ -77,8 +77,8 @@
      padding: 16rpx;
      font-size: 24rpx;
      text-align: center;
-     color: #ff7676;
-     border-bottom: 2px solid #ff7676;
+     color: #7678ff;
+     border-bottom: 2px solid #9c66ff;
 }
 
 .empty_view {

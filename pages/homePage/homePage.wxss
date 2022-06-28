@@ -139,7 +139,7 @@ Page {
 .dateItem .date .day {
      height: fit-content;
      font-size: 45rpx;
-     color: #ee6715;
+     color: #513efd;
      text-align: center;
 }
 
